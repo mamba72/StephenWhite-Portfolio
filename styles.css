@@ -9,7 +9,8 @@
 }
 
 .header-sect {
-    background-color: #d3ddff;
+    /* background-color: #d3ddff; */
+    background-color: #00afb9;
     display: flex;
     width: 100vw;
     flex-direction: row;
@@ -21,7 +22,8 @@
 }
 
 .main-sect {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: #fdfcdc;
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -36,8 +38,18 @@
     margin-bottom: 0px;
 }
 
+.project-sect {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    background-color: #fed9b7;
+    border-radius: 10px; /* rounded edges */
+}
+
 .footer-sect {
-    background-color: #d9d9d9;
+    /* background-color: #d9d9d9; */
+    background-color: #f07167;
     display: flex;
     width: 100vw;
     border-radius: 10px; /* rounded edges */
