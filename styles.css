@@ -4,13 +4,16 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
-    gap: 0.25em;
-    border-radius: 10px; /* rounded edges */
+    /* gap: 0.25em; */
+    /* border-radius: 10px; rounded edges */
+    background-color: rgba(0,0,0,0.30);
+    /* background-color: white; */
 }
 
 .header-sect {
     /* background-color: #d3ddff; */
-    background-color: #00afb9;
+    /* background-color: #00afb9; */
+    background-color: white;
     display: flex;
     width: 100vw;
     flex-direction: row;
@@ -19,23 +22,39 @@
     
     justify-content: space-evenly;
     border-radius: 10px; /* rounded edges */
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    
+}
+
+.column {
+    flex: 50vw;
+    padding: 5px;
 }
 
 .main-sect {
     /* background-color: whitesmoke; */
-    background-color: #fdfcdc;
+    /* background-color: #FBAB7E; */
+    background-color: white;
     display: flex;
     width: 100vw;
     flex-direction: column;
     border-radius: 10px; /* rounded edges */
+    margin-bottom: 10px;
+    font-size: 100%;
 }
 
 .about-sect {
     /* background-color: #3874FF; */
     display: flex;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
     margin-bottom: 0px;
+    /* justify-content: space-between; */
+    
 }
 
 .project-sect {
@@ -43,13 +62,38 @@
     width: 100vw;
     flex-direction: column;
     margin-bottom: 1rem;
-    background-color: #fed9b7;
+    /* background-color: #fed9b7; */
+    background-color: white;
     border-radius: 10px; /* rounded edges */
+    text-overflow: clip;
+}
+
+.certification-sect {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    /* background-color: #fed9b7; */
+    background-color: white;
+    border-radius: 10px; /* rounded edges */
+    /* text-overflow:ellipsis; */
+    /* text-align: center; */
+
+}
+
+.certificate-card {
+    text-align: center;
+    display: flex;
+    width: 80vw;
+    align-self: center;
+    flex-direction: column;
+    
 }
 
 .footer-sect {
     /* background-color: #d9d9d9; */
-    background-color: #f07167;
+    /* background-color: #f07167; */
+    background-color: gainsboro;
     display: flex;
     width: 100vw;
     border-radius: 10px; /* rounded edges */
@@ -86,9 +130,59 @@
     
 }
 
+
+.interest-oval {
+    display: inline-flex;
+    border: 3px;
+    border-style:solid;
+    padding: 0.25em;
+    border-color: #70b5f9;
+    border-radius: 25px;
+    background-color: white;
+    color: #70b5f9;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 5px;
+    font-size: larger;
+}
+
+.coolTable {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    width: 100vw;
+    justify-content: space-evenly;
+    /* align-items: stretch; */
+    align-content: center;
+    text-align: center;
+    
+}
+
+
 /* Good card color: #d3ddff 
 pink header color: ff80ed
 
 
+OTHER COLOR SCHEME:
+    000000  Black
+    14213d  Dark Navy Blue
+    fca311  Orange
+    e5e5e5  Light Gray
+    ffffff  White
+
+
+Cool Orange Gradient
+    background-color: #FBAB7E;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+Cool Blue Gradient:
+    background: linear-gradient(190deg, #1CB5E0 0%, #000851 100%);
+
+Cool "Aqua Spray" gradient:
+    background: linear-gradient(148deg, #00d2ff 0%, #3a47d5 100%);
 
 */
